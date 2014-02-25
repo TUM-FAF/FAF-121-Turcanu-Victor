@@ -31,7 +31,12 @@ Window. Window handling. Basic window’s form elements
 
 ## The application creation stepts
 
-For creating this app I've read the chapters that where specified in the task of the lab and also the [www.MSDN.com](http://msdn.microsoft.com/en-US/) website for and advance look and [StackOverflow](http://stackoverflow.com/).
+For creating this app I've read the chapters that where specified in the task of the lab and also the [www.MSDN.com](http://msdn.microsoft.com/en-US/) website for and advance look and [StackOverflow.com](http://stackoverflow.com/). 
+
+For developing the project, I've used the CodeBlocks IDE. The project can be simply compiled having the ** *.cbp ** file and the resource ** *.cpp **. You should have them both in the same directory. Open the file ** *.cbp ** and compile the project. 
+
+The mockup of the app:
+![Mockup](/images/drawing.png)
 
 #### Features: ####
 
