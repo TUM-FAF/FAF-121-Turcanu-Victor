@@ -2,7 +2,7 @@ Title
 =========
 
 Window. Window handling. Basic window’s form elements
-------------------------------------------------------
+
 
 #### Purpose: ####
 
@@ -36,7 +36,7 @@ For creating this app I've read the chapters that where specified in the task of
 For developing the project, I've used the CodeBlocks IDE. The project can be simply compiled having the ** *.cbp ** file and the resource ** *.cpp **. You should have them both in the same directory. Open the file ** *.cbp ** and compile the project. 
 
 The mockup of the app:
-![Mockup](images/drawing.jpg)
+![Mockup](./images/drawing.jpg)
 
 1. Two simple text fields with default styles
 2. The Input Edit Box
@@ -52,7 +52,7 @@ The mockup of the app:
 12. If you click Maximize - the position of the Window will change randomly and a Message Box will appear 
 13. If you click Close - a Message Box will appear, but the Window will stay unchanged
 
-![The app](images/App.jpg)
+![The app](./images/App.jpg)
 
 #### Features: ####
 
