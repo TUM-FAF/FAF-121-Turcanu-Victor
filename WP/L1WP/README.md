@@ -23,6 +23,14 @@ Window. Window handling. Basic window’s form elements
 * Add 2 text inputs to window: one with default styles, one with custom styles (size, background, text color, font family, font size)
 * Add 2 text elements to window: one with default styles, one with custom styles (size, background, text color, font family, font size)
 
+## Completed Objectives with additional points:
+
+* Make elements to fit window on resize **(1 pt)**
+* Make elements to interact or change other elements (1 pt for 2 different interactions) **(0-2 pt)**
+* Change behavior of different window actions (at least 3). **(1 pt)**
+
+## the application creation stept
+
 #### Features: ####
 
 *	3 Text fields: 2 text field with default styles, 1 with custom style (font, text color, size)
