@@ -4,16 +4,26 @@ Title
 Window. Window handling. Basic window’s form elements
 ------------------------------------------------------
 
-
-
 #### Purpose: ####
 
-To get acquainted with Windows API. The application consists of two Columns – one with 2 Text fields and two Edit boxes, and the second with 4 Buttons.
+* Event driven programming (message-oriented)
+* Windows API. 
+* Windows application development
 
+#### Additional purpose: 
 
+* Version Control Systems (GIT)
+* Programming Style Guidelines
 
+## Completed Mandatory Objectives:
 
-##### Features: ####
+* Create a Windows application
+* Choose Programming Style Guidelines that you'll follow
+* Add 2 buttons to window: one with default styles, one with custom styles (size, background, text color, font family, font size)
+* Add 2 text inputs to window: one with default styles, one with custom styles (size, background, text color, font family, font size)
+* Add 2 text elements to window: one with default styles, one with custom styles (size, background, text color, font family, font size)
+
+#### Features: ####
 
 *	3 Text fields: 2 text field with default styles, 1 with custom style (font, text color, size)
 
