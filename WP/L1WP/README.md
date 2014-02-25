@@ -31,7 +31,7 @@ Window. Window handling. Basic window’s form elements
 
 ## The application creation stepts
 
-For creating this app I've read the chapters that where specified in the task of the lab and also the [www.MSDN.com]: http://msdn.microsoft.com/en-US/ website for and advance look and [StackOverflow]: http://stackoverflow.com/.
+For creating this app I've read the chapters that where specified in the task of the lab and also the [www.MSDN.com](http://msdn.microsoft.com/en-US/) website for and advance look and [StackOverflow](http://stackoverflow.com/).
 
 #### Features: ####
 
