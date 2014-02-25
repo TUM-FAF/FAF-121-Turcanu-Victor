@@ -454,15 +454,17 @@ LRESULT CALLBACK WinProc (HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
 			{
 				case SC_MINIMIZE:
 					return MessageBox(NULL,
-								TEXT("What do we say to minimize?\n     Not today!"),
-								TEXT("Minimize Button Clicked!"),
-								MB_OK | MB_ICONWARNING);
+						TEXT("What do we say to minimize?\n     Not today!"),
+						TEXT("Minimize Button Clicked!"),
+						MB_OK | MB_ICONWARNING);
+					break;
 
 				case SC_CLOSE:
 					return MessageBox(NULL,
-								TEXT("This is not what do you think it is... Check Exit Button!"),
-								TEXT("Maximize Button Clicked!"),
-								MB_OK | MB_ICONASTERISK);
+						TEXT("This is not what do you think it is... Check Exit Button!"),
+						TEXT("Maximize Button Clicked!"),
+						MB_OK | MB_ICONASTERISK);
+					break;
 
 				case SC_MAXIMIZE:
 					iScreenW = GetSystemMetrics(SM_CXSCREEN);
