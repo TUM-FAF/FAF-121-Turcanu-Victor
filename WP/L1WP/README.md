@@ -29,7 +29,9 @@ Window. Window handling. Basic window’s form elements
 * Make elements to interact or change other elements (1 pt for 2 different interactions) **(0-2 pt)**
 * Change behavior of different window actions (at least 3). **(1 pt)**
 
-## the application creation stept
+## The application creation stepts
+
+For creating this app I've read the chapters that where specified in the task of the lab and also the [www.MSDN.com]: http://msdn.microsoft.com/en-US/ website for and advance look and [StackOverflow]: http://stackoverflow.com/.
 
 #### Features: ####
 
