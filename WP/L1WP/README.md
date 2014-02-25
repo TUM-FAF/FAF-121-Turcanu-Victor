@@ -36,7 +36,7 @@ For creating this app I've read the chapters that where specified in the task of
 For developing the project, I've used the CodeBlocks IDE. The project can be simply compiled having the ** *.cbp ** file and the resource ** *.cpp **. You should have them both in the same directory. Open the file ** *.cbp ** and compile the project. 
 
 The mockup of the app:
-![Mockup](images/drawing.png)
+![Mockup](https://github.com/TUM-FAF/FAF-121-Turcanu-Victor/blob/master/WP/L1WP/images/drawing.png)
 
 #### Features: ####
 
