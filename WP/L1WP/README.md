@@ -33,7 +33,7 @@ Window. Window handling. Basic window’s form elements
 
 For creating this app I've read the chapters that where specified in the task of the lab and also the [www.MSDN.com](http://msdn.microsoft.com/en-US/) website for and advance look and [StackOverflow.com](http://stackoverflow.com/). 
 
-For developing the project, I've used the CodeBlocks IDE. The project can be simply compiled having the ** *.cbp ** file and the resource ** *.cpp **. You should have them both in the same directory. Open the file ** *.cbp ** and compile the project. 
+For developing the project, I've used the CodeBlocks IDE. The project can be simply compiled having the ** *.cbp ** file and the resource ** *.cpp **.  
 
 The mockup of the app:
 ![Mockup](./images/drawing.jpg)
@@ -53,6 +53,8 @@ The mockup of the app:
 13. If you click Close - a Message Box will appear, but the Window will stay unchanged
 
 ![The app](./images/App.jpg)
+
+The Window has a minimal size which was set using the [WM_GETMINMAXINFO](http://msdn.microsoft.com/en-us/library/windows/desktop/ms632626(v=vs.85).aspx) message processing. 
 
 #### Features: ####
 
