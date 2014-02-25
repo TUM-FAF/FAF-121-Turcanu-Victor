@@ -6,14 +6,14 @@ Window. Window handling. Basic window’s form elements
 
 
 
-#### Purpose:
+#### Purpose: ####
 
 To get acquainted with Windows API. The application consists of two Columns – one with 2 Text fields and two Edit boxes, and the second with 4 Buttons.
 
 
 
 
-##### Features:
+##### Features: ####
 
 *	3 Text fields: 2 text field with default styles, 1 with custom style (font, text color, size)
 
