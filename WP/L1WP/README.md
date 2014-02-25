@@ -60,32 +60,4 @@ The font and the size (which is a parameter of the CreateFont function) are stor
 
 The color of the text of the Input Edit Box is changed accordng to [WM_CTLCOLOREDIT](http://msdn.microsoft.com/en-us/library/windows/desktop/bb761691(v=vs.85).aspx) message processing. This message allows us to change the color only for the Edit Boxes which don't have the style **ES_READONLY**. That's why processing this message we can't change the color of the text of the Output Edit Box.
 
-If you type the word 'MOVE' then the window will be Maximized
-
-#### Features: ####
-
-*	3 Text fields: 2 text field with default styles, 1 with custom style (font, text color, size)
-
-*	4 Buttons: 1 with default styles, 3 with custom styles (font, text color, text size)
-
-*	By clicking the “Submit” Button the text from “Input Text Box” goes to “Output Text Box”
-
-*	By clicking the “Change Font” Button, the text in “Output Box” updates and changes circularly to one of the four predefined fonts: Tahoma, Courier New, Comic Sans, Bookman Old Style
-
-*	By clicking the “Change Size” Button, the text in “Output Box” updates and changes circularly in size
-
-*	By clicking “Exit” Button the program will terminate execution and the window will be destroyed
-
-*	The window can be resized but it has a minimal dimension
-
-*	The position of the buttons react to the size changes of the window
-
-*	The position and dimensions of the Edit Boxes react to the size changes of the window
-
-*	When clicking on “Close” the window will not be destroyed but a message box will appear above
-
-*	When clicking on “Maximize”, the window will not be maximized but a message box will appear and the position of the window will change randomly
-
-*	When clicking on “Minimize”, the window will not be minimized, but a message box will appear
-
-*	The window can be maximized by typing in input box only the word: “MOVE”
+If you type the word 'MOVE' then the window will be Maximized.
