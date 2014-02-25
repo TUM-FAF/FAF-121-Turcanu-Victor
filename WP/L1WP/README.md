@@ -38,6 +38,22 @@ For developing the project, I've used the CodeBlocks IDE. The project can be sim
 The mockup of the app:
 ![Mockup](images/drawing.jpg)
 
+1. Two simple text fields with default styles
+2. The Input Edit Box
+3. The Submit Button. When clicked, a Message Box with the text from the Input box appears. If clicked Yes, it will display the above text in Output Box
+4. Output Edit Box
+5. Styled text field (font, color, size)
+6. Font Button - changes the font of the text in Input and Output Boxes
+7. Size Button - changes the size of the text in Input and Output Boxes
+8. Color Button - changes the color of the text only of the text from the Input Box 
+9. Exit Button - quits the program and distroyes the window
+10. When resized, the buttons' and the Edit Boxes' position changes according to the size of the Window
+11. If you click Minimize - there will appear a Message Box, but the Window will stay unchanged
+12. If you click Maximize - the position of the Window will change randomly and a Message Box will appear 
+13. If you click Close - a Message Box will appear, but the Window will stay unchanged
+
+![The app](images/App.jpg)
+
 #### Features: ####
 
 *	3 Text fields: 2 text field with default styles, 1 with custom style (font, text color, size)
