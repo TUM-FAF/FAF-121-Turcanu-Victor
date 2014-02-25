@@ -56,6 +56,12 @@ The mockup of the app:
 
 The Window has a minimal size which was set using the [WM_GETMINMAXINFO](http://msdn.microsoft.com/en-us/library/windows/desktop/ms632626(v=vs.85).aspx) message processing. 
 
+The font and the size (which is a parameter of the CreateFont function) are stored in a two dimensional array. The rows represent different fonts, the columns different sizes of the font. 
+
+The color of the text of the Input Edit Box is changed accordng to [WM_CTLCOLOREDIT](http://msdn.microsoft.com/en-us/library/windows/desktop/bb761691(v=vs.85).aspx) message processing. This message allows us to change the color only for the Edit Boxes which don't have the style **ES_READONLY**. That's why processing this message we can't change the color of the text of the Output Edit Box.
+
+If you type the word 'MOVE' then the window will be Maximized
+
 #### Features: ####
 
 *	3 Text fields: 2 text field with default styles, 1 with custom style (font, text color, size)
