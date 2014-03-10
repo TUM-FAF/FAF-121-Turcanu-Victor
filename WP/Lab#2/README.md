@@ -8,12 +8,12 @@ Advanced Form Elements. Child Windowses. Basics of Working With Keyboard.
 
 #### Contents: ####
 
-*The Keyboard
-*Child Window Controls
-	*Scroll Bar
-	*Listbox
-*Menus and Other Resources
-*Dialog Boxes
+* The Keyboard
+* Child Window Controls
+	- Scroll Bar
+	- Listbox
+* Menus and Other Resources
+* Dialog Boxes
 
 ## Completed Mandatory Objectives
 
