@@ -53,7 +53,9 @@ For developing the project, I've used the Visual Studio IDE.
 13. A message box appears when the About item from the Help is clicked.
 
 ![The app](./Images/Main Window.jpg)
+
 ![Menu](./Images/Menu.jpg)
+
 ![About](./Images/About.jpg)
 
 ##Conclusion:
