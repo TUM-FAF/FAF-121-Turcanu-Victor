@@ -13,8 +13,8 @@
 
 using namespace std;
 
-HINSTANCE hInst;								// current instance
-TCHAR szTitle[MAX_LOADSTRING];					// The title bar text
+HINSTANCE hInst;							// current instance
+TCHAR szTitle[MAX_LOADSTRING];				// The title bar text
 TCHAR szWindowClass[MAX_LOADSTRING];			// the main window class name
 
 ATOM			MyRegisterClass(HINSTANCE hInstance);
@@ -22,7 +22,7 @@ LRESULT CALLBACK	SubClassListBoxProc(HWND, UINT, WPARAM, LPARAM, UINT_PTR, DWORD
 BOOL			InitInstance(HINSTANCE, int);
 LRESULT CALLBACK	WndProc(HWND, UINT, WPARAM, LPARAM);
 INT_PTR CALLBACK	About(HWND, UINT, WPARAM, LPARAM);
-void				CreateDeveloperConsole();
+void			CreateDeveloperConsole();
 
 int APIENTRY _tWinMain(_In_ HINSTANCE hInstance,
 			_In_opt_ HINSTANCE hPrevInstance,
