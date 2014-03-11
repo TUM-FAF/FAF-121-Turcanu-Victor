@@ -36,7 +36,7 @@ For creating this app I've read the chapters that where specified in the task of
 For developing the project, I've used the Visual Studio IDE. 
 
 ####The mockup of the app:
-![Mockup](./Images/Mockup.jpg)
+![Mockup](https://github.com/TUM-FAF/FAF-121-Turcanu-Victor/blob/master/WP/Lab%232/Images/Mockup.jpg)
 
 1. A Menu for our application.
 2. A scroll bar for changing the width of the window (horizontal scrool bar) and another one for changing the height of the window (vertical scroll bar).
@@ -52,11 +52,11 @@ For developing the project, I've used the Visual Studio IDE.
 12. A cursor for our application.
 13. A message box appears when the About item from the Help is clicked.
 
-![The app](./Images/Main Window.jpg)
+![The app](https://github.com/TUM-FAF/FAF-121-Turcanu-Victor/blob/master/WP/Lab%232/Images/Main%20Window.jpg)
 
-![Menu](./Images/Menu.jpg)
+![Menu](https://github.com/TUM-FAF/FAF-121-Turcanu-Victor/blob/master/WP/Lab%232/Images/Menu.jpg)
 
-![About](./Images/About.jpg)
+![About](https://github.com/TUM-FAF/FAF-121-Turcanu-Victor/blob/master/WP/Lab%232/Images/About.jpg)
 
 ##Conclusion:
 
