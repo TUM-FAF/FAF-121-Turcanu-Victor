@@ -1,3 +1,5 @@
 My first file created using vim
+samsing new
+
 
 Victor Turcanu
