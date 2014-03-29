@@ -55,10 +55,11 @@ I tried to connect to the server in modes: first on a Unix based OS (Ubuntu) and
 ### Initialize a repository on server, make a file, write your name in it and commit it ###
 
 In order to perform the given task I followed the next steps:
-	* `mkdir Turcanu_Victor_FAF_121`, `cd Turcanu_Victor_FAF_121` - create a new directory and enter it
-	* `mkdir git`, `cd git`, `git init` - create a new directory git, access it and initialize an empty repository
-	* `touch file.txt`, `vim file.txt`, `:i`, `This is my fist file using vim`, ^C, `:wq` - create a new file, access it using vim, write something, close it saving the changes
-	* `git add .`, `git commit -m "first commit"` - adding files and committing them
+
+* `mkdir Turcanu_Victor_FAF_121`, `cd Turcanu_Victor_FAF_121` - create a new directory and enter it
+* `mkdir git`, `cd git`, `git init` - create a new directory git, access it and initialize an empty repository
+* `touch file.txt`, `vim file.txt`, `:i`, `This is my fist file using vim`, ^C, `:wq` - create a new file, access it using vim, write something, close it saving the changes
+* `git add .`, `git commit -m "first commit"` - adding files and committing them
 
 ### Connect to server using public key ###
  I copyed the content of the file `id_rsa.pub` from the `.ssh` directory from my local machine to the file `authorized_keys` from the `.ssh` directory on the remote repository. I did it using `clip < .ssh/id_rsa.pub`.
