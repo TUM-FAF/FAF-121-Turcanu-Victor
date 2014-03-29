@@ -117,17 +117,70 @@ git config --global alias.vic = "commit -m"
 
 Here I encoutered a little problem on Windows (on Ubuntu it worked perfectly), becouse of the path setting, so I decided to make it on Unix anyway, listening to a piece of advice from my colegue Andrei Istratii, and made it on the Windows but using the shell and conecting to the remote server which was offered to us at the lab. 
 
-''' sh
-cd 
+``` sh
+
+cd .git/hooks  # assuming that we are in the Turcanu_Victor_FAF_121/git directory
+touch post-commit  #  create an empty file for hookin the post-commit event
+vim post-commit  
+:i
+	#!/usr/bin/env python 
+
+	print "Hello commit"
+
+	^C
+:wq
+chmod +x post-commmit
+cd ..
+cd ..
+touch random_file.txt
+git add .
+git commit -m "message"  #and after this appears the string "Hello commit"
+
+```
+
+### Create your own server ###
+
+For this purpose I used Ubuntu and used the following commands:
+
+``` sh
+
+sudo apt-get install openssh-server 
+sudo service ssh start
+ifconfig   # here we get the IP for future connection
+
+```
+
+After this I connected from the stationary PC and accessed the home folder, created a file.txt and wrote "Hello! It's PC". After everything is done, the server is closed using
+
+``` sh
+
+sudo service ssh stop
+
+```
+
+### Master Vim editor ###
+
+As the Vim editor highlights the code syntax by default, it was only a matter of finding the command which manages this: `:syntax on/off`.
+
+- `:i` - Insert text before the current cursor position
+- `:w` - Write file to disk
+- `:q` - Quits the editor
+- `: 12, 15 w aux` - Writes line 12 to 15 in  a file aux
+- `:d` - Delets an entire line, even if it's empty
+- `:p` - Pastes below the cursor
+- `u` - Undu last change
+- 'J' - Joins the end of the current line with the beginning of the next line
+- `r` - Replace one character at the cursor position
+- `.` - Repeat last command
 
 
-'''
+Conclusion
+---------------------
 
+This laboratory work was very useful, even at the begining I didn't knew what does mean 70% of the tasksand how to do them. In the end they were pretty simple, the only thing need was just to search and find for each task and understand. Here helped a lod the documentation which I found on github and olso on other tutoril sites. 
 
+Olso I understood that for a programmer working on Ubuntu is much easier. But in the same manner working on Windows have it's benefits because makes you search into the deep foundation of the things and not to look just from the surface at the automatic processes which occur on Ubuntu. Although you have more freedom on Ubuntu. 
 
+The work with Git was very useful and made me understand some little tricks which will help me on my future project and as a good start of understanding a complex system of data management. I remembered the graph theory and its implementation which allows to manage a big amount of data and processes at the same time. 
 
-Hihlighting the code in vim
-
-
-
-
+I spent a great time doing this laboratory work :)
