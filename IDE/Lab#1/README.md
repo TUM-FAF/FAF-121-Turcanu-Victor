@@ -66,68 +66,67 @@ In order to perform the given task I followed the next steps:
 
  ### Working with Git ###
 
- 	* Creating new branches and files
+ * Creating new branches and files
 
- 	``` sh
+``` sh
+git branch branch1
+git branch branch2
+git checkout branch1
+git touch file1
+git add .
+git commit -m "branch1: file1"
+git checkout branch2
+git touch file2
+git add .
+git commit -m "branch2: file2"
 
- 	git branch branch1
- 	git branch branch2
- 	git checkout branch1
- 	git touch file1
- 	git add .
- 	git commit -m "branch1: file1"
- 	git checkout branch2
- 	git touch file2
- 	git add .
- 	git commit -m "branch2: file2"
+```
 
- 	```
+* Reset a branch to a previous commit, and back
 
- 	* Reset a branch to a previous commit, and back
+``` sh
 
- 	``` sh
+git reset --hard HEAD^ 	# resets the head of the tree to the previous commitment
+git reflog
+# list of commitments and their ids
+git reset --hard <commit's id>	# here the commit's id is the id of the one before last commit
 
- 	git reset --hard HEAD^ 	# resets the head of the tree to the previous commitment
- 	git reflog
- 	# list of commitments and their ids
- 	git reset --hard <commit's id>	# here the commit's id is the id of the one before last commit
+```
+* Cherry-pick, rebase
 
- 	```
- 	* Cherry-pick, rebase
+``` sh
 
- 	``` sh
+git reflog
+git checkout master
+git cherry-pick <commit id1>   # commit id1 is now applied to the master branch and commited (as a new commit) in master
 
- 	git reflog
- 	git checkout master
- 	git cherry-pick <commit id1>   # commit id1 is now applied to the master branch and commited (as a new commit) in master
+git checkout -b branchx <commit id1>  # creates a new branch at what commit id1
+git rebase --onto master <commit id2>   # the result is that commits through id1 to id2 are applied to master
 
- 	git checkout -b branchx <commit id1>  # creates a new branch at what commit id1
- 	git rebase --onto master <commit id2>   # the result is that commits through id1 to id2 are applied to master
+```
 
- 	```
+* Creating a VCS alias (Git)
 
- 	* Creating a VCS alias (Git)
+``` sh
 
- 	``` sh
+git config --global alias.vic = "commit -m"
 
- 	git config --global alias.vic = "commit -m"
+``` 
 
- 	``` 
+* Creating a VCS hook 
 
- 	* Creating a VCS hook 
+Here I encoutered a little problem on Windows (on Ubuntu it worked perfectly), becouse of the path setting, so I decided to make it on Unix anyway, listening to a piece of advice from my colegue Andrei Istratii, and made it on the Windows but using the shell and conecting to the remote server which was offered to us at the lab. 
 
- 	Here I encoutered a little problem on Windows (on Ubuntu it worked perfectly), becouse of the path setting, so I decided to make it on Unix anyway, listening to a piece of advice from my colegue Andrei Istratii, and made it on the Windows but using the shell and conecting to the remote server which was offered to us at the lab. 
+''' sh
+cd 
 
- 	``` sh
 
- 	
-
- 	```
-
+'''
 
 
 
- 	Hihlighting the code in vim
+
+Hihlighting the code in vim
 
 
 
