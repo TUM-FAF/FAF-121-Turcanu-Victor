@@ -12,8 +12,13 @@
 *.la
 *.a
 
-#Project files
+#Code::Blocks Project Files
 *.layout
 *.depend
 
+#VS Project Files
+*.
+
 **/bin/
+**/Debug/
+**/ipch/
