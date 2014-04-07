@@ -17,12 +17,12 @@ HINSTANCE hInst;							// current instance
 TCHAR szTitle[MAX_LOADSTRING];				// The title bar text
 TCHAR szWindowClass[MAX_LOADSTRING];			// the main window class name
 
-ATOM			MyRegisterClass(HINSTANCE hInstance);
+ATOM				MyRegisterClass(HINSTANCE hInstance);
 LRESULT CALLBACK	SubClassListBoxProc(HWND, UINT, WPARAM, LPARAM, UINT_PTR, DWORD_PTR);
-BOOL			InitInstance(HINSTANCE, int);
+BOOL				InitInstance(HINSTANCE, int);
 LRESULT CALLBACK	WndProc(HWND, UINT, WPARAM, LPARAM);
 INT_PTR CALLBACK	About(HWND, UINT, WPARAM, LPARAM);
-void			CreateDeveloperConsole();
+void				CreateDeveloperConsole();
 
 int APIENTRY _tWinMain(_In_ HINSTANCE hInstance,
 			_In_opt_ HINSTANCE hPrevInstance,
@@ -68,14 +68,14 @@ ATOM MyRegisterClass(HINSTANCE hInstance)
 	wcex.cbSize = sizeof(WNDCLASSEX);
 
 	wcex.style			= CS_HREDRAW | CS_VREDRAW;
-	wcex.lpfnWndProc		= WndProc;
+	wcex.lpfnWndProc	= WndProc;
 	wcex.cbClsExtra		= 0;
 	wcex.cbWndExtra		= 0;
 	wcex.hInstance		= hInstance;
 	wcex.hIcon			= LoadIcon(hInstance, MAKEINTRESOURCE(IDI_APP));
 	wcex.hCursor		= LoadCursor(hInstance, MAKEINTRESOURCE(IDC_CURSOR1));
 	wcex.hbrBackground	= (HBRUSH)(COLOR_WINDOW);
-	wcex.lpszMenuName		= MAKEINTRESOURCE(IDC_LAB2);
+	wcex.lpszMenuName	= MAKEINTRESOURCE(IDC_LAB2);
 	wcex.lpszClassName	= szWindowClass;
 	wcex.hIconSm		= 0;
 
