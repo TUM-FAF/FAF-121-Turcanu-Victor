@@ -40,6 +40,15 @@ namespace Lab2
             synthesizer.SpeakAsync("Put your seat belts.");
         }
 
+        private void ResetBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Expander1.IsExpanded = false;
+            CheckBox1.IsChecked = false;
+            synthesizer.Volume = 100;
+            synthesizer.Rate = 0;
+            synthesizer.SpeakAsync("The system has been successfully reset.");
+        }
+
 
     }
 }

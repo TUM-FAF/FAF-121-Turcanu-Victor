@@ -23,8 +23,8 @@
                IsOpen="{Binding ElementName=CheckBox1, Path=IsChecked}"
                PlacementTarget="{Binding ElementName=CheckBox1}"
                AllowsTransparency="True"
-               HorizontalOffset="-380"
-               VerticalOffset="-250" 
+               HorizontalOffset="-430"
+               VerticalOffset="10" 
                Visibility="Collapsed" 
                PopupAnimation="Fade">
 
@@ -50,18 +50,32 @@
         <CheckBox x:Name="CheckBox1" 
                 Content="CheckBox" 
                 HorizontalAlignment="Left" 
-                Margin="396,284,0,0" 
+                Margin="398,282,0,0" 
                 VerticalAlignment="Top" 
-                Height="62" 
-                Width="92" 
+                Height="28" 
+                Width="101" 
                 RenderTransformOrigin="0.19,0.18" 
-                Opacity="0" Checked="CheckBox1_Checked"/>
+                Opacity="0" 
+                Checked="CheckBox1_Checked">
 
-        <Expander Header="Temperature" 
+            <CheckBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="32.186"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </CheckBox.RenderTransform>
+        </CheckBox>
+
+        <Expander x:Name="Expander1" 
+                  Header="Temperature" 
                   Foreground="AntiqueWhite"
                   HorizontalAlignment="Left" 
                   Margin="602,336,0,0" 
-                  VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+                  VerticalAlignment="Top" 
+                  RenderTransformOrigin="0.5,0.5">
+
             <Expander.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -97,6 +111,24 @@
                                Foreground="AliceBlue"
                                Margin="963,275,54,286" IsEnabled="False" 
                                />
+        <Button x:Name="ResetBtn" 
+                Content="Reset" 
+                HorizontalAlignment="Left" 
+                Margin="476,275,0,0" 
+                VerticalAlignment="Top" 
+                Width="51" 
+                Background="#FF42A3B2" 
+                RenderTransformOrigin="1.102,0.657" 
+                Foreground="White" Click="ResetBtn_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-15.723"/>
+                    <TranslateTransform X="-0.218" Y="-8.445"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
 
 
     </Grid>
