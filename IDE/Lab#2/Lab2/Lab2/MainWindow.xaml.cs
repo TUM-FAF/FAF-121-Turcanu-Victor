@@ -32,7 +32,14 @@ namespace Lab2
             InitializeComponent();
             synthesizer.Volume = 100;  // 0...100
             synthesizer.Rate   = 0;     // -10...10
-            //synthesizer.SpeakAsync("Welcome to Simulatron!");
+            synthesizer.SpeakAsync("The Simulatron has started!");
         }
+
+        private void CheckBox1_Checked(object sender, RoutedEventArgs e)
+        {
+            synthesizer.SpeakAsync("Put your seat belts.");
+        }
+
+
     }
 }
