@@ -40,6 +40,6 @@ In order to perform this task, there were very useful the links provided by you 
 
 My application is basically a todo list but with some music displayed on background. There is a button for setting a new task and for removing ald old one from the list. Also there is a button wich enables a pop up dialog box in which is described very simple the app. Also the appeared dialog box has two buttons which both pause the background music.
 
-![img1]()
+![img1](https://raw.githubusercontent.com/TUM-FAF/FAF-121-Turcanu-Victor/L3IDE/IDE/Lab%233/Media/img1.jpg)
 
-![img2]()
+![img2](https://raw.githubusercontent.com/TUM-FAF/FAF-121-Turcanu-Victor/L3IDE/IDE/Lab%233/Media/img2.jpg)
