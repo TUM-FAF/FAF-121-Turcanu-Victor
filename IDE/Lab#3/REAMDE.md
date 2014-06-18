@@ -38,7 +38,7 @@ It was quite challenging to develope a mobile application first of all because I
 
 In order to perform this task, there were very useful the links provided by you in the description of the task, but also there arrose some questions and [stackoverflow.com](http://stackoverflow.com/) helped me a lot. I used a hardware debugging, because the emulator on my laptop crashed each time when I opened it, even without my app in it. 
 
-My application is basically a todo list but with some music displayed on background. There is a button for setting a new task and for removing ald old one from the list. Also there is a button wich enables a pop up dialog box in which is described very simple the app. Also the appeared dialog box has two buttons which both pause the background music.
+My application is basically a todo list but with some music displayed on background. There is a button for setting a new task and for removing ald old one from the list. Also there is a button wich enables a pop up dialog box in which is described very simple the app. Also the appeared dialog box has one button which pause the background music.
 
 ![img1](https://raw.githubusercontent.com/TUM-FAF/FAF-121-Turcanu-Victor/L3IDE/IDE/Lab%233/Media/img1.jpg)
 
