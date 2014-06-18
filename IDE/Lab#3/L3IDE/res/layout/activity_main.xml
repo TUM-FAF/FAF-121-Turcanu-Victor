@@ -1,0 +1,52 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.l3ide.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <Button
+        android:id="@+id/btnAdd"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:minWidth="60dip"
+        android:text="@string/strAdd"
+        android:width="70dp" />
+
+    <EditText
+        android:id="@+id/textItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:ems="10"
+        android:text="@string/strNULL" />
+
+    <ListView
+        android:id="@+id/listItems"
+        android:layout_width="wrap_content"
+        android:layout_height="353dp"
+        android:layout_gravity="bottom" >
+
+    </ListView>
+
+    <Button
+        android:id="@+id/btnRmv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:minWidth="60dp"
+        android:text="@string/strRemove"
+        android:width="95dp" />
+
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="48dp"
+        android:text="About" />
+
+</FrameLayout>
+
