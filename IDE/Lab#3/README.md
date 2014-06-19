@@ -35,6 +35,6 @@ My app is a simple task list and has 3 buttons on main page. One for adding a ta
 
 The screens of application:
 
-![img1]()
+![img1](https://raw.githubusercontent.com/TUM-FAF/FAF-121-Turcanu-Victor/master/IDE/Lab%233/Screens/img.jpg)
 
-![img2]()
+![img2](https://raw.githubusercontent.com/TUM-FAF/FAF-121-Turcanu-Victor/master/IDE/Lab%233/Screens/img1.jpg)
